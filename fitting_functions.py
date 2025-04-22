@@ -31,7 +31,7 @@ def r2_score(y_true, y_pred):
     ss_residual = np.sum((y_true - y_pred) ** 2)
     return 1 - (ss_residual / ss_total)
     
-##scipy optimizer fitting function
+##scipy optimizer fitting function structure: can modify to test functions of interest
 def make_exp_fit_precursor(x_data, y_data, sample_name):
     x_data[0] = 0.01  
     a_range = np.linspace(0.001, 1, 10)
@@ -46,7 +46,7 @@ def make_exp_fit_precursor(x_data, y_data, sample_name):
             for c in c_range:
                 try:
                     
-                    params, covariance = curve_fit(exponential_decay_function_pre, x_data, y_data, 
+                    params, covariance = curve_fit(exponential_decay_function, x_data, y_data, 
                                                    p0=[a, b, c], bounds=([0, -np.inf, 0], [1, np.inf, 1]))
                     y_fit_exp = exponential_decay_function_pre(x_data, *params)
                     r2_exp = r2_score(y_data, y_fit_exp)
@@ -64,7 +64,7 @@ def make_exp_fit_precursor(x_data, y_data, sample_name):
     
     return best_fit, best_params, best_r2
 
-##Scipy minimizer fitting functions
+##scipy minimizer fitting function structure: can modify to test functions of interest
 ##def make_exp_fit_arag1(x_data, y_data):
     ##standard loss function
     def loss_function(params, x, y):
