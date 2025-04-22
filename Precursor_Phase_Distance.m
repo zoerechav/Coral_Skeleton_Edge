@@ -70,8 +70,7 @@ end
 % Calculate x_val_plot
 x_val_plot = (1:dis) * (fov / pix_wid);
 disp(x_val_plot)
-%x_val_filepath = fullfile('Users/zoerechav/Documents/raw_datapoints/',[csv_name,'_xvals.csv'])
-%csvwrite(x_val_filepath,x_val_plot)
+
 % Save the dictionary to a CSV file
 csv_file_path = fullfile('/Users/zoe/Documents/MATLAB/code/', [csv_name, '.csv']);
 fid = fopen(csv_file_path, 'w');
