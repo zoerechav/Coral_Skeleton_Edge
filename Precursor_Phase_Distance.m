@@ -72,7 +72,7 @@ x_val_plot = (1:dis) * (fov / pix_wid);
 disp(x_val_plot)
 
 % Save the dictionary to a CSV file
-csv_file_path = fullfile('/Users/zoe/Documents/MATLAB/code/', [csv_name, '.csv']);
+csv_file_path = fullfile('/path/to/destination/', [csv_name, '.csv']);
 fid = fopen(csv_file_path, 'w');
 fprintf(fid, 'Distance Bin,Values\n');
 for o = 1:dis
