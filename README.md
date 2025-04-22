@@ -3,6 +3,8 @@
 Relevant publication here:
 
 Scripts
+
+In MATLAB
 Precursor_Phase_Distance.m
   ##developed by Isabelle Marie LeCloux and Zoë Rechav
   ##function: collect proportion of precursor in each pixel of a photoshop image of a coral skeleton area
@@ -19,3 +21,10 @@ Precursor_Phase_Distance.m
 pp_tester_code.m
   ##developed by Isabelle Marie LeCloux and Zoë Rechav
   ##script to call function Precursor_Phase_Distance
+
+in PYTHON
+fitting_functions.py
+  ##developed by Zoë Rechav
+  ##library of functions used to perform fits
+  ##basic function structures and fitting structures are provided
+  ##can modify for your own functions as needed
