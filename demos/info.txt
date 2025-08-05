@@ -1,1 +1,6 @@
-#Demo scripts are available as jupyter notebooks or python scripts
+# Python
+# demo_compare_fit.ipynb and demo_exponential.ipynb are available as jupyter notebooks
+# demo_compare_fit.py and demo_exponential.py are available as python scripts
+
+# MATLAB
+# 
