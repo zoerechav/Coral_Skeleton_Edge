@@ -48,7 +48,7 @@ def make_exp_fit_precursor(x_data, y_data, sample_name):
                     
                     params, covariance = curve_fit(exponential_decay_function, x_data, y_data, 
                                                    p0=[a, b, c], bounds=([0, -np.inf, 0], [1, np.inf, 1]))
-                    y_fit_exp = exponential_decay_function_pre(x_data, *params)
+                    y_fit_exp = exponential_decay_function(x_data, *params)
                     r2_exp = r2_score(y_data, y_fit_exp)
 
                     
