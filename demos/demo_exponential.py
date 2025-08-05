@@ -55,12 +55,12 @@ def get_info_spatial(file):
     medians = {}  
     std_devs = {}
     for distance, values in new_data.items():
-        median_value = np.mean(values)
-        medians[distance] = median_value
+        mean_value = np.mean(values)
+        means[distance] = mean_value
         
         std_deviation = np.std(values)
         std_devs[distance] = std_deviation
-    return new_data, medians, std_devs
+    return new_data, means, std_devs
 
 def get_info_temporal(file):
     data = {}  
@@ -83,15 +83,15 @@ def get_info_temporal(file):
     new_data = {converted_bin_dict[key]: [value for value in values if value > 0.] for key, 
                   values in data.items()}
     
-    medians = {}  
+    means = {}  
     std_devs = {}
     for distance, values in new_data.items():
-        median_value = np.mean(values)
-        medians[distance] = median_value
+        mean_value = np.mean(values)
+        means[distance] = mean_value
         
         std_deviation = np.std(values)
         std_devs[distance] = std_deviation
-    return new_data, medians, std_devs
+    return new_data, means, std_devs
 
 def exponential_decay_function(x, a, b, c):
     return a * np.exp(-b * x) + c
