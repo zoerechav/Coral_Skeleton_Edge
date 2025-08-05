@@ -58,7 +58,7 @@ If you have the MATLAB installer with the license (through purchase or instituti
 - Go to the 'Home' tab and click on 'Add-Ons' --> 'Get Add-Ons' to search for necessary toolboxes.
 Inside of 'Manage Add-Ons' all installed toolboxes are visible.
 
-AAfter all toolboxes are installed, you can run the [demos](https://github.com/zoerechav/Coral_Skeleton_Edge/blob/main/demos/) available for use in the MATLAB interface. 
+After all toolboxes are installed, you can run the [demos](https://github.com/zoerechav/Coral_Skeleton_Edge/blob/main/demos/) available for use in the MATLAB interface. 
 ## Python
 Most Linux distributed systems already have Python installed. Check to see if you have Python installed on your local machine using the following command in your terminal:
 
