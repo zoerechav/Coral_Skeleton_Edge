@@ -53,4 +53,4 @@ And then install python, which will automatically install the newest version of 
 
 `brew install python`
 
-Verifying you have python3 and pip3 should mean you are good to go (`python3 --version` and `pip3 --version`).
+Verifying you have python3 and pip3 should mean you are good to go (`python3 --version` and `pip3 --version` in terminal).
