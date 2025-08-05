@@ -39,6 +39,9 @@ Linux: Ubuntu 20.04 or later, or other equivalent, supported distributions (Cent
 
 # Installation
 MATLAB and Python are used independently in this work. MATLAB is used to extract precursor proportions from data processed using Igor. Python is used to calculate the mean distribution of data, perform fits, calculate 1/e lengths, and plot results. The following installation instructions assume MacOS.
+
+MATLAB installation and additional toolboxes may range between 15 minute to 60 minutes.
+Python installation and additional packages may range between 2 - 5 minutes.
 ## MATLAB
 
 Install instructions are available [here](https://www.mathworks.com/help/install/ug/install-products-with-internet-connection.html). MacOS machines also require a Java runtime tool, directions also available in preceding link. 
