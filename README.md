@@ -15,7 +15,9 @@ Disk Space: ~6GB minimum for installation
 
 ### Python
 RAM: 2GB minimum, 4GB or greater recommended
+
 Processor: any 64-bit arm supported processor compatable with Operating System
+
 Disk Space: ~100MB for installation, not including other required packages
 
 ### Total
