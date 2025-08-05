@@ -64,4 +64,5 @@ You can launch VSCode using the command `code`, but first it is best practice us
 A VSCode project for this work can be called 'coral'. First make the project directory and navigate there.
 
 `mkdir /path/to/coral`
+
 `cd /path/to/coral`
