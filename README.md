@@ -75,7 +75,8 @@ And activate your environment to install the required packages for this work
 
 `source /path/to/coral/venv/bin/activate`
 
-The required packages for this work are located in versions.py. The version of each package used is also specified. Depending on the package, exact version specificatio may not be necessary. To install packages while your virutal environment is activated, use the following commands
+The required packages for this work are located in [versions.py#L](https://github.com/zoerechav/Coral_Skeleton_Edge/versions.py#L<78>
+). The version of each package used is also specified. Depending on the package, exact version specificatio may not be necessary. To install packages while your virutal environment is activated, use the following commands
 
 `pip install package (ex: pip install numpy)`
 or
