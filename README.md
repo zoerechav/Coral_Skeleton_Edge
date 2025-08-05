@@ -87,5 +87,7 @@ To run demo scripts in terminal:
 
 `source /path/to/coral/venv/bin/acticate`
 
+Ensure the data folder and scripts are located in /path/to/coral/
+
 `python /path/to/coral/demo_compare_fit.py` and `python /path/to/coral/demo_exponential.py`
 
