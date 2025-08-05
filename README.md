@@ -45,7 +45,7 @@ Most Linux distributed systems already have Python installed. Check to see if yo
 
 `python3 --version`
 
-Any version of Python3 or above should be compatible for this work. If you do not have Python on your machine, install using Homebrew. If you do not have Homebrew, use the following command in terminal:
+Any version of Python3 or above should be compatible for this work. If you do not have Python on your local machine, install using Homebrew. If you do not have Homebrew, use the following command in terminal:
 
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
