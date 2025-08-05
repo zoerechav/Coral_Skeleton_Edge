@@ -1,6 +1,7 @@
 #### MATLAB ####
 # ppd_tester_code.m is used to call the Precursor_Phase_Distance.m MATLAB function for each precursor of interest, per pMap
 
+# expected run time: between ~15 minutes and ~2 hours per pMap.
 #inputs:
     pMap: the proportion map for ACCH2O, ACC, CCHH, MHC, or aragonite. Proportions range from 0 to 1 for each pixel.
 
@@ -25,6 +26,9 @@ Several example output .csv files are shown in the data folder, as well as examp
 # demo_compare_fit.ipynb and demo_exponential.ipynb are available as jupyter notebooks
 # demo_compare_fit.py and demo_exponential.py are available as python scripts
 
+# expected run time:
+    demo_compare_fit.py --> ~2 minutes
+    demo_exponential.py --> ~4 minutes
 # inputs:
     .csv files built from running MATLAB code. Examples available in the data folder.
 
