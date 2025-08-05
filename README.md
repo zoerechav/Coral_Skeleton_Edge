@@ -55,4 +55,13 @@ And then install python, which will automatically install the newest version of 
 
 Verifying you have python3 and pip3 should mean you are good to go (`python3 --version` and `pip3 --version` in terminal).
 
-Python requires an interpreter - a tool to execute code on your local machine - to run efficiently. VSCode is a common interpreter because it is also a code editor. You can write/edit your code and execute using the same tool.
+Python requires an interpreter - a tool to execute code on your local machine - to run efficiently. VSCode is a common interpreter because it is also a code editor. You can write/edit your code and execute using the same tool. To install VSCode use the following command in your terminal:
+
+`brew install --cask visual-studio-code`
+
+You can launch VSCode using the command `code`, but first it is best practice using Python to create a project and virtual environment where you install all the required packages to perform your function. The packages inside the environment do not change as you update your local machine, thus preserving the software version of the packages you are using.
+
+A VSCode project for this work can be called 'coral'. First make the project directory and navigate there.
+
+`mkdir /path/to/coral`
+`cd /path/to/coral`
