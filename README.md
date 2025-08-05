@@ -2,9 +2,9 @@
 
 # UPDATES IN PROGRESS
 Relevant publication here: 
-#Software#
+# Software
 MATLAB r2023b and Python 4.3.0 were used in this work. Following informaiton details the requirements to run these software versions.
-#Operating Systems#
-##MATLAB##
+## Operating Systems
+### MATLAB
 
-##Python##
+### Python
