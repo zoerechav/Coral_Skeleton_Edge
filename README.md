@@ -36,3 +36,7 @@ MacOS: Catalina (10) or later
 Windows: 10 or later
 
 Linux: Ubuntu 20.04 or later, or other equivalent, supported distributions (CentOS/RHEL 8, Fedora 36, etc.)
+
+# Installation
+## MATLAB
+## Python
