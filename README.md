@@ -41,11 +41,11 @@ Linux: Ubuntu 20.04 or later, or other equivalent, supported distributions (Cent
 MATLAB and Python are used independently in this work. MATLAB is used to extract precursor proportions from data processed using Igor. Python is used to calculate the mean distribution of data, perform fits, calculate 1/e lengths, and plot results. The following installation instructions assume MacOS.
 ## MATLAB
 ## Python
-Most Linux distributed systems already have Python installed. Check to see if you have Python installed using the following command:
+Most Linux distributed systems already have Python installed. Check to see if you have Python installed on your local machine using the following command in your terminal:
 
 `python3 --version`
 
-Any version of Python3 or above should be compatible for this work. If you do not have Python on your local machine, install using Homebrew. If you do not have Homebrew, use the following command in terminal:
+Any version of Python3 or above should be compatible for this work. If you do not have Python on your local machine, install using Homebrew. If you do not have Homebrew, use the following command in terminal (Homebrew is for MacOS users):
 
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
