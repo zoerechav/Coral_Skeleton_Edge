@@ -62,7 +62,7 @@ Any version of Python3 or above should be compatible for this work. If you do no
 
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
-And then install python, which will automatically install the newest version of Python3 (Python2 is outdated and not forward compatable!).
+And then install python, which will automatically install the newest version of Python3 (Python2 is outdated and not forward compatable!). If you are not using a MacOS machine and do not have python ( or do not have python and do not like Homebrew ) install directions for python are located [here](https://www.python.org/downloads/).
 
 `brew install python`
 
