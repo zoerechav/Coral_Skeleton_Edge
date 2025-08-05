@@ -3,7 +3,7 @@
 # UPDATES IN PROGRESS
 Relevant publication here: 
 # System Requirements
-MATLAB r2023b and Python 4.3.0 were used in this work. Following information details the requirements to run these packages. Python is in general backwards compatible but individual packages may vary in their backwards capibilities. If possible, use versions provided or later, unless major software updates are described in external documentation. 
+MATLAB r2023b and Python 4.3.0 were used in this work. MATLAB is open source and free to use for enrolled students at many educational institutes, or available for purchase. Python is free and open source. Following information details the requirements to run these packages. Python is in general backwards compatible but individual packages may vary in their backwards capibilities. If possible, use versions provided or later, unless major software updates are described in external documentation. 
 ## Hardware 
 All testing in this work was performed on a machine using an M1 processing chip and 16GB available RAM. Compatible, yet untested hardware requirements are listed below.
 ### MATLAB
