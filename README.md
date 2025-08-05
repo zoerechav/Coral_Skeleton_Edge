@@ -55,13 +55,9 @@ And then install python, which will automatically install the newest version of 
 
 Verifying you have python3 and pip3 should mean you are good to go (`python3 --version` and `pip3 --version` in terminal).
 
-Python requires an interpreter - a tool to execute code on your local machine - to run efficiently. Any compatible interpreter is useable. For example, to install VSCode use the following command in your terminal:
+Best practice using Python is to create a project and virtual environment where you install all the required packages to perform your function. The packages inside the environment do not change as you update your local machine, thus preserving the software version of the packages you are using.
 
-`brew install --cask visual-studio-code`
-
-You can launch VSCode using the command `code`, but first it is best practice using Python to create a project and virtual environment where you install all the required packages to perform your function. The packages inside the environment do not change as you update your local machine, thus preserving the software version of the packages you are using.
-
-A VSCode project for this work can be called 'coral'. First make the project directory and navigate there.
+A project for this work can be called 'coral'. First make the project directory and navigate there.
 
 `mkdir /path/to/coral`
 
@@ -75,11 +71,11 @@ And activate your environment to install the required packages for this work
 
 `source /path/to/coral/venv/bin/activate`
 
-The required packages for this work are located in [versions.py](https://github.com/zoerechav/Coral_Skeleton_Edge/blob/main/versions.py). Depending on the package, exact version specification may not be necessary. To install packages while your virtual environment is activated, use the following commands
+The required packages for this work are located in [versions.py](https://github.com/zoerechav/Coral_Skeleton_Edge/blob/main/versions.py). Depending on the package, exact version specification may not be necessary. To install packages while your virtual environment is activated, use the following commands.
 
 `pip install package (ex: pip install numpy)`
 or
 `pip install package == version (ex: pip install numpy==1.23.0`
 
-After all packages are installed, you can launch VSCode while you are located in /path/to/coral using `code .`. This will launch an instance of VSCode with the appropriate packages for this work, allowing you to run the [demos](https://github.com/zoerechav/Coral_Skeleton_Edge/blob/main/demos/) available for use.
+After all packages are installed, you can run the [demos](https://github.com/zoerechav/Coral_Skeleton_Edge/blob/main/demos/) available for use in the terminal. More advanced code editing and visualization is available through the use of an interpreter such as Spyder or Virtual Software (VS) Code.
 
