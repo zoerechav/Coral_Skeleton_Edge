@@ -42,5 +42,7 @@ MATLAB and Python are used independently in this work. MATLAB is used to extract
 ## MATLAB
 ## Python
 Most Linux distributed systems already have Python installed. Check to see if you have Python installed using the following command:
+
 `python3 --version`
+
 Any version of Python3 or above should be compatible for this work.
