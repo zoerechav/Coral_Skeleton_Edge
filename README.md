@@ -75,11 +75,10 @@ And activate your environment to install the required packages for this work
 
 `source /path/to/coral/venv/bin/activate`
 
-The required packages for this work are located in [versions.py](https://github.com/zoerechav/Coral_Skeleton_Edge/blob/main/versions.py)
-
-). The version of each package used is also specified. Depending on the package, exact version specificatio may not be necessary. To install packages while your virutal environment is activated, use the following commands
+The required packages for this work are located in [versions.py](https://github.com/zoerechav/Coral_Skeleton_Edge/blob/main/versions.py). Depending on the package, exact version specification may not be necessary. To install packages while your virtual environment is activated, use the following commands
 
 `pip install package (ex: pip install numpy)`
 or
 `pip install package == version (ex: pip install numpy==1.23.0`
 
+After this, you can launch VSCode while you are located in /path/to/coral using `code .`. This will launch an instance of VSCode with the appropriate packages for this work, allowing you to run the [demos](https://github.com/zoerechav/Coral_Skeleton_Edge/blob/main/demos/) available for use.
