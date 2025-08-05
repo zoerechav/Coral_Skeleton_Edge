@@ -2,8 +2,24 @@
 
 # UPDATES IN PROGRESS
 Relevant publication here: 
-# Software
-MATLAB r2023b and Python 4.3.0 were used in this work. Following information details the requirements to run these software versions. Python is in general backwards compatible but individual packages may vary in their backwards capibilities. If possible, use versions provided or later, unless major software updates are described in external documentation. 
+# System Requirements
+MATLAB r2023b and Python 4.3.0 were used in this work. Following information details the requirements to run these packages. Python is in general backwards compatible but individual packages may vary in their backwards capibilities. If possible, use versions provided or later, unless major software updates are described in external documentation. 
+## Hardware 
+All testing in this work was performed on a machine using an M1 processing chip and 16GB available RAM. Compatible, yet untested hardware requirements are listed below.
+### MATLAB
+RAM: 4GB minimum, 8GB or greater recommended
+
+Processor: 1.8Ghz minimum, faster is preferred. arm support needed.
+
+Disk Space: ~6GB minimum for installation
+
+### Python
+RAM: 2GB minimum, 4GB or greater recommended
+Processor: any 64-bit arm supported processor compatable with Operating System
+Disk Space: ~100MB for installation, not including other required packages
+
+### Total
+Roughly 10 GB RAM, using an arm supported processor, and ample disk space > ~6GB is required/recommended to install and use MATLAB and Python (+ packages and dependencies) in this work.
 ## Operating Systems
 All testing in this work was performed using MacOS Sonoma (14). Compatible, yet untested operating systems are listed below.
 ### MATLAB
