@@ -66,3 +66,18 @@ A VSCode project for this work can be called 'coral'. First make the project dir
 `mkdir /path/to/coral`
 
 `cd /path/to/coral`
+
+Make your virtual environment
+
+`python3 -m venv venv`
+
+And activate your environment to install the required packages for this work
+
+`source /path/to/coral/venv/bin/activate`
+
+The required packages for this work are located in versions.py. The version of each package used is also specified. Depending on the package, exact version specificatio may not be necessary. To install packages while your virutal environment is activated, use the following commands
+
+`pip install package (ex: pip install numpy)`
+or
+`pip install package == version (ex: pip install numpy==1.23.0`
+
