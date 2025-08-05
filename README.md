@@ -81,4 +81,5 @@ The required packages for this work are located in [versions.py](https://github.
 or
 `pip install package == version (ex: pip install numpy==1.23.0`
 
-After this, you can launch VSCode while you are located in /path/to/coral using `code .`. This will launch an instance of VSCode with the appropriate packages for this work, allowing you to run the [demos](https://github.com/zoerechav/Coral_Skeleton_Edge/blob/main/demos/) available for use.
+After all packages are installed, you can launch VSCode while you are located in /path/to/coral using `code .`. This will launch an instance of VSCode with the appropriate packages for this work, allowing you to run the [demos](https://github.com/zoerechav/Coral_Skeleton_Edge/blob/main/demos/) available for use.
+
