@@ -102,6 +102,10 @@ or
 After all packages are installed, you can run the [demos](https://github.com/zoerechav/Coral_Skeleton_Edge/blob/main/demos/) available for use in the terminal. More advanced code editing and visualization is available through the use of an interpreter such as Spyder or Virtual Software (VS) Code.
 
 # Run Demo
+
+Ensure the data folder and scripts are located in /path/to/coral/ or wherever your project resides.
+## MATLAB
+
 ## Python 
 To run demo scripts in terminal:
 
@@ -109,7 +113,6 @@ To run demo scripts in terminal:
 
 `source /path/to/coral/venv/bin/acticate`
 
-Ensure the data folder and scripts are located in /path/to/coral/
 
 `python /path/to/coral/demo_compare_fit.py` and `python /path/to/coral/demo_exponential.py`
 
