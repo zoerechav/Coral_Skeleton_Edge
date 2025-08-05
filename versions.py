@@ -30,12 +30,12 @@ print("csv: part of Python standard library")
 
 
 ##OUTPUT
-# Library Versions:
-# NumPy: 1.24.3
-# h5py: 3.8.0
-# Matplotlib: 3.7.1
-# Pandas: 2.0.1
-# SciPy: 1.10.1
+#Library Versions:
+#NumPy: 1.24.3
+#h5py: 3.8.0
+#Matplotlib: 3.7.1
+#Pandas: 2.0.1
+#SciPy: 1.10.1
 
 # Standard Library Modules:
 # glob: part of Python standard library
