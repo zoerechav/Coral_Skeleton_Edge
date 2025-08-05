@@ -1,1 +1,1 @@
-#Information about demos goes here
+#Demo scripts are available as jupyter notebooks or python scripts
