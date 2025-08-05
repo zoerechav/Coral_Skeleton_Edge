@@ -52,7 +52,13 @@ The required tools in MATLAB for this work are
 - Symbolic Math
 - Text Analytics Toolbox
 
-If you have the MATLAB installer with the license (through purchase or institution), you can include the desired toolboxes during the initial installation process by selecting them. Otherwise, 
+If you have the MATLAB installer with the license (through purchase or institution), you can include the desired toolboxes during the initial installation process by selecting them. Otherwise, after installing MATLAB you can, in the MATLAB interface,  
+
+- Go to the 'Home' tab and click on 'Add-Ons' --> 'Manage Add-Ons' to see all installed toolboxes.
+- Go to the 'Home' tab and click on 'Add-Ons' --> 'Get Add-Ons' to search for necessary toolboxes.
+Inside of 'Manage Add-Ons' all installed toolboxes are visible.
+
+AAfter all toolboxes are installed, you can run the [demos](https://github.com/zoerechav/Coral_Skeleton_Edge/blob/main/demos/) available for use in the MATLAB interface. 
 ## Python
 Most Linux distributed systems already have Python installed. Check to see if you have Python installed on your local machine using the following command in your terminal:
 
