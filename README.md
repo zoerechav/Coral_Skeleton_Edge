@@ -54,3 +54,5 @@ And then install python, which will automatically install the newest version of 
 `brew install python`
 
 Verifying you have python3 and pip3 should mean you are good to go (`python3 --version` and `pip3 --version` in terminal).
+
+Python requires an interpreter - a tool to execute code on your local machine - to run efficiently. VSCode is a common interpreter because it is also a code editor. You can write/edit your code and execute using the same tool.
