@@ -3,4 +3,4 @@
 # demo_compare_fit.py and demo_exponential.py are available as python scripts
 
 # MATLAB
-# ppd_tester_code.m is used to call the Precursor_Phase_Distance.m MATLAB script for each precursor of interest, per pMap
+# ppd_tester_code.m is used to call the Precursor_Phase_Distance.m MATLAB function for each precursor of interest, per pMap
