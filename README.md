@@ -55,7 +55,7 @@ And then install python, which will automatically install the newest version of 
 
 Verifying you have python3 and pip3 should mean you are good to go (`python3 --version` and `pip3 --version` in terminal).
 
-Python requires an interpreter - a tool to execute code on your local machine - to run efficiently. In this work, Spyder and VSCode were used, but any compatible interpreter is useable. For example, to install VSCode use the following command in your terminal:
+Python requires an interpreter - a tool to execute code on your local machine - to run efficiently. Any compatible interpreter is useable. For example, to install VSCode use the following command in your terminal:
 
 `brew install --cask visual-studio-code`
 
