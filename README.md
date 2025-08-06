@@ -105,6 +105,10 @@ After all packages are installed, you can run the [demos](https://github.com/zoe
 
 Ensure the data folder and scripts are located in /path/to/coral/ or wherever your project resides.
 ## MATLAB
+To run demo scripts in MATLAB interface:
+
+- Open both Precursor_Phas_Distance.m and ppd_tester_code.m
+- In the 'Editor' tab, press 'Run' or another instance/modification of 'Run' for ppd_tester_code.m. This will call the Precursor_Phase_Distance function.
 
 ## Python 
 To run demo scripts in terminal:
@@ -112,7 +116,6 @@ To run demo scripts in terminal:
 `cd /path/to/coral`
 
 `source /path/to/coral/venv/bin/acticate`
-
 
 `python /path/to/coral/demo_compare_fit.py` and `python /path/to/coral/demo_exponential.py`
 
