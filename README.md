@@ -1,7 +1,5 @@
 # Code for a study of precursor abundance and transformation rate as a function of distance from the edge and time since deposition
-
-# UPDATES IN PROGRESS
-Relevant publication here: 
+Relevant publication here: XX
 # System Requirements
 MATLAB r2023b and Python 3.11.3 were used in this work. MATLAB is open source and free to use for enrolled students at many educational institutes, or available for purchase. Python is free and open source. Following information details the requirements to run these packages. Python is in general backwards compatible but individual packages may vary in their backwards capibilities. If possible, use versions provided or later, unless major software updates are described in external documentation. 
 ## Hardware 
