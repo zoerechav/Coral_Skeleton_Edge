@@ -38,9 +38,7 @@ Windows: 10 or later
 Linux: Ubuntu 20.04 or later, or other equivalent, supported distributions (CentOS/RHEL 8, Fedora 36, etc.)
 
 # Installation
-MATLAB and Python are used independently in this work. MATLAB is used to extract precursor proportions from data processed using Igor. Python is used to calculate the mean distribution of data, perform fits, calculate 1/e lengths, and plot results. The following installation instructions assume MacOS.
-
-Additionally, the open source software [GGMacros](https://home.physics.wisc.edu/gilbert/software/) was used to analyze and produce the data used for this work, and is described in detail in this [publication](https://www.nature.com/articles/s41467-024-46117-x). 
+MATLAB and Python are used independently in this work. MATLAB is used to extract precursor proportions from data produced using the open source software [GGMacros](https://home.physics.wisc.edu/gilbert/software/), which is described in detail in this [publication](https://www.nature.com/articles/s41467-024-46117-x). Python is used to calculate the mean distribution of data, perform fits, calculate 1/e lengths, and plot results. The following installation instructions assume MacOS. 
 
 MATLAB installation and additional toolboxes may range between 15 minute to 60 minutes.
 Python installation and additional packages may range between 2 - 5 minutes.
