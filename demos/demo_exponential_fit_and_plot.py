@@ -297,7 +297,7 @@ def main():
 
     ax.set_xlabel('distance [$\mu$m] from edge')
     ax.set_ylabel('precursor proportion')
-    twin.set_ylabel('precursor proportion',
+    twin.set_ylabel('aragonite proportion',
                     rotation=270, 
                     labelpad = 25,
                     color='blue')
