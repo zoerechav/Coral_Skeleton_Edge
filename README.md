@@ -40,6 +40,8 @@ Linux: Ubuntu 20.04 or later, or other equivalent, supported distributions (Cent
 # Installation
 MATLAB and Python are used independently in this work. MATLAB is used to extract precursor proportions from data processed using Igor. Python is used to calculate the mean distribution of data, perform fits, calculate 1/e lengths, and plot results. The following installation instructions assume MacOS.
 
+Additionally, the open source software [GGMacros](https://home.physics.wisc.edu/gilbert/software/) was used to analyze and produce the data used for this work, and is described in detail in this [publication](https://www.nature.com/articles/s41467-024-46117-x). 
+
 MATLAB installation and additional toolboxes may range between 15 minute to 60 minutes.
 Python installation and additional packages may range between 2 - 5 minutes.
 ## MATLAB
@@ -107,7 +109,7 @@ Ensure the data folder and scripts are located in /path/to/coral/ or wherever yo
 ## MATLAB
 To run demo scripts in MATLAB interface:
 
-- Open both Precursor_Phas_Distance.m and ppd_tester_code.m
+- Open both Precursor_Phase_Distance.m and ppd_tester_code.m
 - In the 'Editor' tab, press 'Run' or another instance/modification of 'Run' for ppd_tester_code.m. This will call the Precursor_Phase_Distance function.
 
 ## Python 
