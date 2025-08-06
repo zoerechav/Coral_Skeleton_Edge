@@ -101,7 +101,7 @@ After all packages are installed, you can run the [demos](https://github.com/zoe
 
 # Run Demo
 
-Ensure the data folder and scripts are located in /path/to/coral/ or wherever your project resides.
+Ensure the data folder and scripts are located in /path/to/coral/ or wherever your project resides. All function inputs are coded into scripts.
 ## MATLAB
 To run demo scripts in MATLAB interface:
 
