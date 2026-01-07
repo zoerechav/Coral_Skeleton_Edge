@@ -3,6 +3,7 @@ title: "Coral Skeleton Edge"
 authors:
   - family-names: Rechav
     given-names: Zoë
-doi: 10.5281/zenodo.18175786
+    orcid: https://orcid.org/0000-0002-7653-8988
+doi: 10.5281/zenodo.1234567 
 version: v1
 date-released: 2026-01-07
